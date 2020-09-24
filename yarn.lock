@@ -1526,9 +1526,10 @@
     "@ethersproject/properties" "^5.0.3"
     "@ethersproject/strings" "^5.0.3"
 
-"@gnosis.pm/safe-apps-sdk@https://github.com/gnosis/safe-apps-sdk#development":
-  version "0.3.1"
-  resolved "https://github.com/gnosis/safe-apps-sdk#12c86028693dfc47f6ff08f8ccf8e6890b4c12ab"
+"@gnosis.pm/safe-apps-sdk@0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@gnosis.pm/safe-apps-sdk/-/safe-apps-sdk-0.4.1.tgz#c3a8f1957d11b243329ebcb7a47823fc10ff8595"
+  integrity sha512-dteNaqGrtaGQ2uLKfiDvf23nfvhg6IJqPjIwqNUz3qZzlxUHCC14eCNHdXFeDXHs8uCB02sUcIWCbroblAGxVQ==
 
 "@gnosis.pm/safe-react-components@^0.1.3":
   version "0.1.3"
@@ -1831,19 +1832,14 @@
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-2.5.1.tgz#c76e3fc57aa224da3718ec351812a4251289db31"
   integrity sha512-qIy6tLx8rtybEsIOAlrM4J/85s2q2nPkDqj/Rx46VakBZ0LwtFhXIVub96LXHczQX0vaqmAueDqNPXtbSXSaYQ==
 
-"@rmeissner/safe-apps-react-sdk@0.3.4":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@rmeissner/safe-apps-react-sdk/-/safe-apps-react-sdk-0.3.4.tgz#edc8ee6e459d420f2923328ea1b37e3c107fc8b9"
-  integrity sha512-TcpFSKW/zyo4TtImRb5JDr/ZJnu/XDwngOByCep+WDH5MMws0VKqoHVjdWCznro0gBXbbUWeNIXk/mawj0gz0g==
+"@rmeissner/safe-apps-react-sdk@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@rmeissner/safe-apps-react-sdk/-/safe-apps-react-sdk-0.4.0.tgz#be743162ae2ffcc7b61fc267bf098061125431db"
+  integrity sha512-BEaVGUecfZUGuWPGbGj1ma2Od1ZhrFVgrrE9nBUX68+UE8UhJz0fXENRKhVbEybQOzSTjdhQU4+dPlrX7Rbpaw==
   dependencies:
-    "@gnosis.pm/safe-apps-sdk" "https://github.com/gnosis/safe-apps-sdk#development"
+    "@gnosis.pm/safe-apps-sdk" "0.4.1"
     "@types/jest" "^24.0.0"
-    "@types/node" "^12.0.0"
-    "@types/react" "^16.9.0"
     "@types/uuid" "^8.3.0"
-    react "^16.13.1"
-    react-scripts "3.4.1"
-    typescript "^3.9.7"
     uuid "^8.3.0"
 
 "@sheerun/mutationobserver-shim@^0.3.2":
@@ -2156,7 +2152,7 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
 
-"@types/react-dom@*", "@types/react-dom@^16.9.0":
+"@types/react-dom@*", "@types/react-dom@^16.9.8":
   version "16.9.8"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.9.8.tgz#fe4c1e11dfc67155733dfa6aa65108b4971cb423"
   integrity sha512-ykkPQ+5nFknnlU6lDd947WbQ6TE3NNzbQAkInC2EKY1qeYdTKp7onFusmYZb+ityzx2YviqT6BXSu+LyWWJwcA==
@@ -2177,7 +2173,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.9.0":
+"@types/react@*", "@types/react@^16.9.49":
   version "16.9.49"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.49.tgz#09db021cf8089aba0cdb12a49f8021a69cce4872"
   integrity sha512-DtLFjSj0OYAdVLBbyjhuV9CdGVHCkHn2R+xr3XkBvK2rS1Y1tkc14XSGjYgm5Fjjr90AxH9tiSzc1pCFMGO06g==
@@ -11242,11 +11238,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typescript@^3.9.7:
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
-  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
 typescript@^4.0.2:
   version "4.0.2"

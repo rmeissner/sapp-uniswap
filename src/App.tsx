@@ -9,17 +9,24 @@ const App = () => {
   const [submitting, setSubmitting] = useState(false)
   const submitTx = useCallback(async () => {
     setSubmitting(true)
-    await safe.asyncSendTransactions([
-      {
-        "to": safe.getSafeInfo().safeAddress,
-        "value": 0,
-        "data": "0x"
-      }
-    ])
+    try {
+      const safeTxHash = await safe.sendTransactions([
+        {
+          "to": safe.info.safeAddress,
+          "value": "0",
+          "data": "0x"
+        }
+      ])
+      console.log({safeTxHash})
+      const safeTx = await safe.loadSafeTransaction(safeTxHash)
+      console.log({safeTx})
+    } catch (e) {
+      console.error(e)
+    }
     setSubmitting(false)
   }, [safe])
   return <>
-    {safe.getSafeInfo().safeAddress}<br/>
+    {safe.info.safeAddress}<br/>
     {submitting ? 
     <>
     <CircularProgress color="secondary" /> 
